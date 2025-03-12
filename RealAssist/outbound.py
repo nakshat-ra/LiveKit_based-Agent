@@ -149,9 +149,9 @@ async def main():
   trunk = SIPOutboundTrunkInfo(
     name = "LiveTrunk",
     address = "pstn.twilio.com",
-    numbers = ['+919891398961'],
-    auth_username = "nakshatra@propellergv.com",
-    auth_password = "9cmBVf:Vq_P4NVU"
+    numbers = [<your_own_number>],
+    auth_username = "<chosen_username>",
+    auth_password = "<chosen_password>"
   )
 
   request = CreateSIPOutboundTrunkRequest(
